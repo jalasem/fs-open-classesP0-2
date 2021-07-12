@@ -1,0 +1,32 @@
+.IdCard {
+  width: 35rem;
+  padding: 2rem;
+  border: 1px solid #d3d3d394;
+  margin: 4rem auto;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px 0px #00000014;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  font-size: 2rem;
+}
+
+.field {
+  font-weight: 600;
+}
+.value {
+  font-weight: 400;
+  color: grey;
+}
+
+form {
+  margin: auto;
+  width: 25rem;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+form input {
+  font-size: 1.5rem;
+  padding: 1rem;
+}

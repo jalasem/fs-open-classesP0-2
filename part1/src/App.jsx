@@ -1,15 +1,23 @@
 // import Counter from "./components/Counter";
 
-import Controlled from "./components/Controlled";
-import UnCrontrolled from "./components/UnControlled";
+import TodoList from "./components/TodoList"
+
+// import Controlled from "./components/Controlled";
+// import Counter from "./components/Counter";
+// import IdCard from "./components/IdCard";
+// import Switch from "./components/Switch";
+// import UnCrontrolled from "./components/UnControlled";
 
 const App = () => {
   return (
     <>
       {/* <Counter /> */}
+      {/* <Switch /> */}
       {/* <Controlled />
       <UnCrontrolled /> */}
-      
+      {/* using useState to handle number, boolean, string, object, array */}
+      {/* <IdCard /> */}
+      <TodoList />
     </>
   );
 };
